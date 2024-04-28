@@ -13,13 +13,10 @@
       Orange: hsl(14, 90%, 60%) - Blue: hsl(210, 90%, 50%)
       Pink: hsl(356, 100%, 65%) - Green: hsl(162, 90%, 40%)
 
-<<<<<<< HEAD
-=======
       For more colors visit: https://colors.dopely.top/color-pedia
       -> Choose any color 
       -> Click on tab (Color Conversion)
       -> Copy the color mode (HSL)
->>>>>>> e98b1d08245ef4dd27f15574de0593ac2935a8a8
   */
   --hue: 255;
   --first-color: hsl(var(--hue), 90%, 60%);
@@ -549,39 +546,32 @@ body.dark-theme{
     row-gap: 2rem;
 }
 
-<<<<<<< HEAD
 .work__card{
   border-radius: 1.5%; /* Change background color to make it lighter */
   box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.2); /* Increase shadow intensity */
 }
 
- .work__link{
-=======
+
 .work__link{
->>>>>>> e98b1d08245ef4dd27f15574de0593ac2935a8a8
   display: inline-block;
   position: relative;
   overflow: hidden;
   margin-bottom: 1rem;
-<<<<<<< HEAD
-} 
-=======
 }
->>>>>>> e98b1d08245ef4dd27f15574de0593ac2935a8a8
+
 
 .work__img{
   transition: transform .5s;
 }
 
-<<<<<<< HEAD
 .work__img:hover{
   transform: scale(1.2);
 }
-=======
+
 /*.work__img:hover{*/
 /*  transform: scale(1.2);*/
 /*}*/
->>>>>>> e98b1d08245ef4dd27f15574de0593ac2935a8a8
+
 
 .work__icon{
   position: absolute;
@@ -604,22 +594,18 @@ body.dark-theme{
 
 .work__title{
   font-size: var(--h2-font-size);
-<<<<<<< HEAD
   margin: 0.5rem;
 }
 
 .work__subtitle{
   margin: 0.5rem;
-=======
   margin-bottom: 0.25rem;
->>>>>>> e98b1d08245ef4dd27f15574de0593ac2935a8a8
 }
 
 .work__page{
   padding-bottom: 4rem;
 }
 
-<<<<<<< HEAD
 .card {
   width: 450px;
   border-radius: 0.4rem;
@@ -710,8 +696,6 @@ body.dark-theme{
   transition-duration: .3s;
 }
 
-=======
->>>>>>> e98b1d08245ef4dd27f15574de0593ac2935a8a8
 /*=============== TESTIMONIAL ===============*/
 
 
