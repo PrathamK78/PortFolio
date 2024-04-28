@@ -548,7 +548,7 @@ body.dark-theme{
 
 .work__card{
   border-radius: 1.5%; /* Change background color to make it lighter */
-  box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.2); /* Increase shadow intensity */
+  box-shadow: 5px 10px 12px rgba(69, 69, 69, 0.2); /* Increase shadow intensity */
 }
 
 
