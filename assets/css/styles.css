@@ -13,10 +13,13 @@
       Orange: hsl(14, 90%, 60%) - Blue: hsl(210, 90%, 50%)
       Pink: hsl(356, 100%, 65%) - Green: hsl(162, 90%, 40%)
 
+<<<<<<< HEAD
+=======
       For more colors visit: https://colors.dopely.top/color-pedia
       -> Choose any color 
       -> Click on tab (Color Conversion)
       -> Copy the color mode (HSL)
+>>>>>>> e98b1d08245ef4dd27f15574de0593ac2935a8a8
   */
   --hue: 255;
   --first-color: hsl(var(--hue), 90%, 60%);
@@ -546,20 +549,39 @@ body.dark-theme{
     row-gap: 2rem;
 }
 
+<<<<<<< HEAD
+.work__card{
+  border-radius: 1.5%; /* Change background color to make it lighter */
+  box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.2); /* Increase shadow intensity */
+}
+
+ .work__link{
+=======
 .work__link{
+>>>>>>> e98b1d08245ef4dd27f15574de0593ac2935a8a8
   display: inline-block;
   position: relative;
   overflow: hidden;
   margin-bottom: 1rem;
+<<<<<<< HEAD
+} 
+=======
 }
+>>>>>>> e98b1d08245ef4dd27f15574de0593ac2935a8a8
 
 .work__img{
   transition: transform .5s;
 }
 
+<<<<<<< HEAD
+.work__img:hover{
+  transform: scale(1.2);
+}
+=======
 /*.work__img:hover{*/
 /*  transform: scale(1.2);*/
 /*}*/
+>>>>>>> e98b1d08245ef4dd27f15574de0593ac2935a8a8
 
 .work__icon{
   position: absolute;
@@ -582,13 +604,114 @@ body.dark-theme{
 
 .work__title{
   font-size: var(--h2-font-size);
+<<<<<<< HEAD
+  margin: 0.5rem;
+}
+
+.work__subtitle{
+  margin: 0.5rem;
+=======
   margin-bottom: 0.25rem;
+>>>>>>> e98b1d08245ef4dd27f15574de0593ac2935a8a8
 }
 
 .work__page{
   padding-bottom: 4rem;
 }
 
+<<<<<<< HEAD
+.card {
+  width: 450px;
+  border-radius: 0.4rem;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 1, 0.05);
+  border: 1px solid transparent;
+  height: 420px;
+}
+
+.card a {
+  text-decoration: none
+}
+
+.content {
+  padding: 1.1rem;
+}
+
+.image{
+  object-fit: cover;
+  border-radius: 0.4rem;
+  width: 100%;
+  height: 250px;
+  background: url("/assets/img/work-1.png");
+  background-size: auto;
+  background-size: cover;
+}
+
+.title {
+  color: #111827;
+  font-size: 1.325rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.desc {
+  margin-top: 0.5rem;
+  color: #6B7280;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.Btn {
+  margin: 0.7rem;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .4s;
+  cursor: pointer;
+  position: relative;
+  background-color: rgb(31, 31, 31);
+  overflow: hidden;
+}
+
+.svgIcon {
+  transition-duration: .3s;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+.text {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  width: 120px;
+  font-weight: 600;
+  opacity: 0;
+  transition-duration: .4s;
+}
+
+.Btn:hover {
+  width: 110px;
+  transition-duration: .4s;
+  border-radius: 30px;
+}
+
+.Btn:hover .text {
+  opacity: 1;
+  transition-duration: .4s;
+}
+
+.Btn:hover .svgIcon {
+  opacity: 0;
+  transition-duration: .3s;
+}
+
+=======
+>>>>>>> e98b1d08245ef4dd27f15574de0593ac2935a8a8
 /*=============== TESTIMONIAL ===============*/
 
 
